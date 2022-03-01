@@ -1,0 +1,8 @@
+{
+  "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json",
+  "Version": "15.2.0",
+  "Id": "website.static.navigator.bundle",
+  "Description": "Bundle for the static website that contains the navigator, content and api to generate the website",
+  "Kind": "Application",
+  "Name": "Static Website Bundle"
+}
