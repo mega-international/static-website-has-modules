@@ -1,0 +1,30 @@
+{
+  "ModuleType": "Core",
+  "Version": "15.2.0",
+  "Id": "website.static.content",
+  "Name": "Static Website Content",
+  "Description": "Content of static website for navigator",
+  "EnabledOnSettingsMode": true,
+  "ShowInPortal": false,
+  "IgnoreSynchronization": false,
+  "dependencies": [
+    {
+      "Id": "website.static.navigator",
+      "Optional": false,
+	  "Version": "[15.2.0,)"
+    },
+	{
+      "Id": "hopex.graphql",
+      "Optional": false,
+	  "Version": "[7.87.507,)"
+    },
+	{
+      "Id": "hopex.rest.api",
+      "Optional": false,
+	  "Version": "[7.87.507,)"
+    }
+  ],
+  "Kind": "Content",
+  "Sha256": "87D7CB94D1B9DD0DCF07DE663848AD9CFD0FB78D7C56A70729A68720C9B8AEDA",
+  "RequireLicenseAcceptance": false
+}

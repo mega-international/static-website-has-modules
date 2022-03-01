@@ -1,0 +1,14 @@
+# 	DO NOT DELETE LINES IN COMMENT
+#	websiteId  = absolute identfier of the webiste to generate
+#	apiKey   = API key for HAS instance
+#	serverUrl = has instance's url 
+#	languagesCode = List of language codes to generate. Seperate with ";". (Must have at least one for default) (English;Français;Italiano) --> EN;FR;IT
+#	forceContinuOnError = if true, the website will package even if the generation encounters an error
+#	tempRefreshApi = wait time (int in s) to refresh the async api call --> Necessary to exploit http/status code result if needed
+{
+	"websiteId":"",
+	"apiKey":"",
+	"serverUrl":"",
+	"languagesCode":"EN",
+	"forceContinuOnError":false
+}

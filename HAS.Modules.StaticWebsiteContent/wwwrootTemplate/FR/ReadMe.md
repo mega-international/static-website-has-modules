@@ -1,0 +1,1 @@
+This folder is an example for the structure of your website content. The French version of your website will be here.
