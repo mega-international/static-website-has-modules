@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="~/" />
+    <link rel="stylesheet" type="text/css" href="/website.static.navigator/lib/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/website.static.navigator/lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="/website.static.navigator/css/site.css">
+    <link rel="stylesheet" type="text/css" href="/_customs/website.static.navigator/css/top_module_bar.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/_customs/has.uas/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/_customs/has.uas/images/favicon-16x16.png" />
+    <link rel="shortcut icon" type="images/x-icon" href="/_customs/has.uas/images/favicon.ico" />
+    @RenderSection("styleSheets", required: false)
+</head>
+
+<body>
+    <div class="d-flex flex-column" id="v-wrapper">
+
+        <!-- Top horizontal navbar -->
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark pt-1 pb-1" id="module_nav_bar">
+
+            <ul class="navbar-nav ml-5 mr-5">
+                <li class="nav-item">
+                    <a class="#navbar-brand" href="">
+                        <img class="icon_module" style="margin-bottom: -15px;"
+                             src=@Url.Content("~/images/logo-H-white.png")
+                             alt="Hopex" width="120">
+                    </a>
+                </li>
+            </ul>
+            <h4 class="navbar-text text-white ml-5 mr-auto mb-0"><span class="title_nav"><span>Static WebSite Navigator</span></span></h4>
+            <ul class="navbar-nav">
+                <!-- Logout -->
+                <li class="nav-item">
+                    <a class="nav-link text-white hover-green" data-toggle="tooltip" title="Logout" asp-controller="Home" asp-action="Logout"><img class="logout_module" src=@Url.Content("~/images/logout.png") alt="Logout" width="32"></a>
+                </li>
+            </ul>
+        </nav>
+        <!-- end of top horizontal navbar -->
+
+        <div class="d-flex flex-fill" id="wrapper">
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+                <div class="h-100">
+                    @RenderBody()
+                </div>
+            </div>
+            <!-- /#page-content-wrapper -->
+
+        </div>
+    </div>
+    <!-- Page Content -->
+
+    <!-- scripts -->
+    <script src="/website.static.navigator/lib/jquery/jquery.min.js"
+            crossorigin="anonymous"></script>
+    <script src="/website.static.navigator/lib/bootstrap/dist/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+    <script src="/website.static.navigator/lib/font-awesome/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="/website.static.navigator/js/index.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>

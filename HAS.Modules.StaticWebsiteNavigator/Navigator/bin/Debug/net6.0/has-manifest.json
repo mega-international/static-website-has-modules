@@ -1,0 +1,21 @@
+{
+  "ModuleType": "AddOn",
+  "Version": "15.2.1",
+  "Id": "website.static.navigator",
+  "Name": "Static Website Navigator",
+  "Description": "Static web site viewer",
+  "PathPrefix": "website.static.navigator",
+  "EnabledOnSettingsMode": false,
+  "ShowInPortal": true,
+  "IgnoreSynchronization": false,
+  "ServerVersionRange": "[15.0.2,)",
+  "Kind": "Site",
+  "RequireLicenseAcceptance": false,
+  "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json",
+  "Requisites": [
+    {
+      "Kind": "Dotnet",
+      "Value": "6.0"
+    }
+  ]
+}

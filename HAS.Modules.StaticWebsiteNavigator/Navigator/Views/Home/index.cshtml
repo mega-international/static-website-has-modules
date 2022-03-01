@@ -1,0 +1,12 @@
+@using HomeViewModel = Has.Modules.WebSite.ViewModels.HomeViewModel
+@model HomeViewModel
+        
+
+        @if(Model == null)
+        {
+            <h2>No static site found</h2>   
+        }
+        else 
+        {   
+          <iframe id="iframe" src="../website.static.navigator/_static/website.static.content/index.htm" style="width:100%; height:100%; border:none" target="_blank" onload="clickEvent()"></iframe>
+        }          

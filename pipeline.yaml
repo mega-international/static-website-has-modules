@@ -1,0 +1,68 @@
+name: $(Major).$(CP).$(HF)+$(Patch)
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+- group: Modules-Publishing
+- name: Major
+  value: 15
+- name: CP
+  value: 2
+- name: HF
+  value: 0
+- name: Patch
+  value: $[counter(format('{0}.{1}.{2}', variables['Major'], variables['CP'],variables['HF']),0)]
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: UseDotNet@2
+  displayName: Use .NET Core sdk 6.0.x
+  inputs:
+      version: 6.0.x
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'custom'
+    custom: 'new'
+    arguments: 'tool-manifest'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'custom'
+    custom: 'tool'
+    arguments: 'update hopex.applicationserver.tool --version 15.2.*'
+    
+- task: CmdLine@2
+  displayName: 'Create Bundle Folder'
+  inputs:
+    script: 'mkdir HAS.Modules.StaticWebsite'
+ 
+- task: CmdLine@2
+  displayName: 'Copy bundle manifest to folder'
+  inputs:
+    script: 'copy has-manifest.json HAS.Modules.StaticWebsite'
+    
+- task: CmdLine@2
+  displayName: 'Packaging Navigator'
+  inputs:
+    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteNavigator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'
+
+- task: CmdLine@2
+  displayName: 'Packaging Content'
+  inputs:
+    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteContent --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'    
+    
+- task: CmdLine@2
+  displayName: 'Packaging Generate Website Macro'
+  inputs:
+    script: 'dotnet has module create -p .\Package --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite' 
+
+- task: CmdLine@2
+  displayName: 'Publishing to mega store'
+  inputs:
+    script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p .\HAS.Modules.StaticWebsite --version $(Build.BuildNumber)'
