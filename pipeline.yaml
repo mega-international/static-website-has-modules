@@ -50,7 +50,7 @@ steps:
 - task: CmdLine@2
   displayName: 'Packaging Navigator'
   inputs:
-    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteNavigator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'
+    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteNavigator\Navigator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'
 
 - task: CmdLine@2
   displayName: 'Packaging Content'
@@ -60,7 +60,7 @@ steps:
 - task: CmdLine@2
   displayName: 'Packaging Generate Website Macro'
   inputs:
-    script: 'dotnet has module create -p .\Package --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite' 
+    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsite\MacroSiteGenerator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite' 
 
 - task: CmdLine@2
   displayName: 'Publishing to mega store'
