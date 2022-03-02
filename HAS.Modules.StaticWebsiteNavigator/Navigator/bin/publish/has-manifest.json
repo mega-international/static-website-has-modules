@@ -9,13 +9,14 @@
   "ShowInPortal": true,
   "IgnoreSynchronization": false,
   "Kind": "Site",
-  "Sha256": "D0CAC6334E0426395CFA2C5EAC55731015EAEDF358299F3E55B3F4825A1B4CEA",
-  "RequireLicenseAcceptance": false,
-  "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json",
+  "Sha256": "62131BC62D7388AF51E6C0A16D9B806F9AFCA55AB9A453EAAEB78F1B732797E8",
   "Requisites": [
     {
-      "Kind": "Dotnet",
-      "Value": "6.0"
+      "Kind": "DotNet",
+      "Value": "6.0",
+      "For": "All"
     }
-  ]
+  ],
+  "RequireLicenseAcceptance": false,
+  "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json"
 }

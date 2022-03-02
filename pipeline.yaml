@@ -46,21 +46,36 @@ steps:
   displayName: 'Copy bundle manifest to folder'
   inputs:
     script: 'copy has-manifest.json HAS.Modules.StaticWebsite'
+ 
+- task: CmdLine@2
+  displayName: 'Go to navigator folder'
+  inputs:
+    script: 'cd .\HAS.Modules.StaticWebsiteNavigator\Navigator\'    
     
 - task: CmdLine@2
   displayName: 'Packaging Navigator'
   inputs:
-    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteNavigator\Navigator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'
+    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
+ 
+- task: CmdLine@2
+  displayName: 'Go to web macro folder'
+  inputs:
+    script: 'cd ..\MacroSiteGenerator\'
+    
+ - task: CmdLine@2
+  displayName: 'Packaging Generate Website Macro'
+  inputs:
+    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\' 
 
+- task: CmdLine@2
+  displayName: 'Go to content folder'
+  inputs:
+    script: 'cd ..\..\HAS.Modules.StaticWebsiteContent\'
+    
 - task: CmdLine@2
   displayName: 'Packaging Content'
   inputs:
-    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsiteContent --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite'    
-    
-- task: CmdLine@2
-  displayName: 'Packaging Generate Website Macro'
-  inputs:
-    script: 'dotnet has module create -p .\HAS.Modules.StaticWebsite\MacroSiteGenerator --version $(Build.BuildNumber) --copy-to .\HAS.Modules.StaticWebsite' 
+    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\HAS.Modules.StaticWebsite\'    
 
 - task: CmdLine@2
   displayName: 'Publishing to mega store'

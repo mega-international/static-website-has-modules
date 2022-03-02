@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsite\\Navigator\\Has.Modules.WebSite.csproj": {}
+    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Navigator\\Has.Modules.WebSite.csproj": {}
   },
   "projects": {
-    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsite\\Navigator\\Has.Modules.WebSite.csproj": {
-      "version": "1.0.0",
+    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Navigator\\Has.Modules.WebSite.csproj": {
+      "version": "15.2.3",
       "restore": {
-        "projectUniqueName": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsite\\Navigator\\Has.Modules.WebSite.csproj",
+        "projectUniqueName": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Navigator\\Has.Modules.WebSite.csproj",
         "projectName": "HAS.Modules.WebSite",
-        "projectPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsite\\Navigator\\Has.Modules.WebSite.csproj",
+        "projectPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Navigator\\Has.Modules.WebSite.csproj",
         "packagesPath": "C:\\Users\\ept\\.nuget\\packages\\",
-        "outputPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsite\\Navigator\\obj\\",
+        "outputPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Navigator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,6 +69,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }

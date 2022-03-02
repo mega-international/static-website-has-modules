@@ -10,3 +10,14 @@ V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGene
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.csproj.CopyComplete
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Debug\netstandard2.0\Hopex.WebService.dll
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Debug\netstandard2.0\Hopex.WebService.pdb
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\bin\Debug\netstandard2.0\Hopex.WebService.deps.json
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\bin\Debug\netstandard2.0\Hopex.WebService.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\bin\Debug\netstandard2.0\Hopex.WebService.pdb
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\bin\Debug\netstandard2.0\Mega.Macro.Wrapper.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.GeneratedMSBuildEditorConfig.editorconfig
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.AssemblyInfoInputs.cache
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.AssemblyInfo.cs
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.csproj.CoreCompileInputs.cache
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Has.WebMacro.csproj.CopyComplete
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Hopex.WebService.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\obj\Debug\netstandard2.0\Hopex.WebService.pdb
