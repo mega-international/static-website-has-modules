@@ -57,7 +57,7 @@ steps:
   displayName: 'Packaging Generate Website Macro'
   inputs:
     script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
-    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerate\'
+    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\'
     
 - task: CmdLine@2
   displayName: 'Packaging Content'
