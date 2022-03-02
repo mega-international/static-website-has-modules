@@ -62,7 +62,7 @@ steps:
   inputs:
     script: 'cd ..\MacroSiteGenerator\'
     
- - task: CmdLine@2
+- task: CmdLine@2
   displayName: 'Packaging Generate Website Macro'
   inputs:
     script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\' 

@@ -9,7 +9,7 @@
   "ShowInPortal": true,
   "IgnoreSynchronization": false,
   "Kind": "Site",
-  "Sha256": "62131BC62D7388AF51E6C0A16D9B806F9AFCA55AB9A453EAAEB78F1B732797E8",
+  "Sha256": "C9F29A168E1BA296848960C5E1BC98A3670F766F83B64D3E2CDA9643C7D4AADB",
   "Requisites": [
     {
       "Kind": "DotNet",
