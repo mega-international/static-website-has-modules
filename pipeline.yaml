@@ -52,28 +52,27 @@ steps:
   inputs:
     script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
     workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\Navigator\'
- 
-- task: CmdLine@2
-  displayName: 'Go to web macro folder'
-  inputs:
-    script: 'cd ..\MacroSiteGenerator\'
     
 - task: CmdLine@2
   displayName: 'Packaging Generate Website Macro'
   inputs:
-    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\' 
-
-- task: CmdLine@2
-  displayName: 'Go to content folder'
-  inputs:
-    script: 'cd ..\..\HAS.Modules.StaticWebsiteContent\'
+    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
+    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerate\'
     
 - task: CmdLine@2
   displayName: 'Packaging Content'
   inputs:
-    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\HAS.Modules.StaticWebsite\'    
+    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\HAS.Modules.StaticWebsite\'
+    workingDirectory : '.\HAS.Modules.StaticWebsiteContent\' 
+
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '.\HAS.Modules.StaticWebsite' 
+    includeRootFolder: false 
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/StaticWebsiteBundle-$(Build.BuildNumber).haspkg' 
 
 - task: CmdLine@2
   displayName: 'Publishing to mega store'
   inputs:
-    script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p .\HAS.Modules.StaticWebsite --version $(Build.BuildNumber)'
+    script: 'dotnet has module publish -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p .\StaticWebsiteBundle-$(Build.BuildNumber).haspkg'
