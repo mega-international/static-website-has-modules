@@ -46,16 +46,12 @@ steps:
   displayName: 'Copy bundle manifest to folder'
   inputs:
     script: 'copy has-manifest.json HAS.Modules.StaticWebsite'
- 
-- task: CmdLine@2
-  displayName: 'Go to navigator folder'
-  inputs:
-    script: 'cd .\HAS.Modules.StaticWebsiteNavigator\Navigator\'    
     
 - task: CmdLine@2
   displayName: 'Packaging Navigator'
   inputs:
     script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
+    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\Navigator\'
  
 - task: CmdLine@2
   displayName: 'Go to web macro folder'
