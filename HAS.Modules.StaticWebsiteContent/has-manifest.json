@@ -7,24 +7,14 @@
   "EnabledOnSettingsMode": true,
   "ShowInPortal": false,
   "IgnoreSynchronization": false,
+  "Kind": "Content",
+  "Sha256": "87D7CB94D1B9DD0DCF07DE663848AD9CFD0FB78D7C56A70729A68720C9B8AEDA",
+  "RequireLicenseAcceptance": false,
   "dependencies": [
     {
       "Id": "website.static.navigator",
-      "Optional": false,
-	  "Version": "[15.2.0,)"
-    },
-	{
-      "Id": "hopex.graphql",
-      "Optional": false,
-	  "Version": "[7.87.507,)"
-    },
-	{
-      "Id": "hopex.rest.api",
-      "Optional": false,
-	  "Version": "[7.87.507,)"
+      "Version": "[15.2.0,)",
+      "Optional": false
     }
-  ],
-  "Kind": "Content",
-  "Sha256": "87D7CB94D1B9DD0DCF07DE663848AD9CFD0FB78D7C56A70729A68720C9B8AEDA",
-  "RequireLicenseAcceptance": false
+	]
 }

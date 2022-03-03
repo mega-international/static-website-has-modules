@@ -35,44 +35,9 @@ steps:
   inputs:
     command: 'custom'
     custom: 'tool'
-    arguments: 'update hopex.applicationserver.tool --version 15.2.*'
+    arguments: 'update hopex.applicationserver.tool --version 15.3.*'
     
-- task: CmdLine@2
-  displayName: 'Create Bundle Folder'
-  inputs:
-    script: 'mkdir HAS.Modules.StaticWebsite'
- 
-- task: CmdLine@2
-  displayName: 'Copy bundle manifest to folder'
-  inputs:
-    script: 'copy has-manifest.json HAS.Modules.StaticWebsite'
-    
-- task: CmdLine@2
-  displayName: 'Packaging Navigator'
-  inputs:
-    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
-    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\Navigator\'
-    
-- task: CmdLine@2
-  displayName: 'Packaging Generate Website Macro'
-  inputs:
-    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\..\HAS.Modules.StaticWebsite\'
-    workingDirectory : '.\HAS.Modules.StaticWebsiteNavigator\MacroSiteGenerator\'
-    
-- task: CmdLine@2
-  displayName: 'Packaging Content'
-  inputs:
-    script: 'dotnet has module create -p . --version $(Build.BuildNumber) --copy-to ..\HAS.Modules.StaticWebsite\'
-    workingDirectory : '.\HAS.Modules.StaticWebsiteContent\' 
-
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '.\HAS.Modules.StaticWebsite' 
-    includeRootFolder: false 
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/StaticWebsiteBundle-$(Build.BuildNumber).haspkg' 
-
 - task: CmdLine@2
   displayName: 'Publishing to mega store'
   inputs:
-    script: 'dotnet has module publish -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p .\StaticWebsiteBundle-$(Build.BuildNumber).haspkg'
+    script: 'dotnet has module publish -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber).'

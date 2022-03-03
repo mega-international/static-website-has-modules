@@ -1,0 +1,14 @@
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Hopex.WebService.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Hopex.WebService.deps.json
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Hopex.WebService.pdb
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Hopex.ApplicationServer.WebServices.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Microsoft.Bcl.AsyncInterfaces.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Microsoft.CSharp.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Buffers.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Memory.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Numerics.Vectors.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Runtime.CompilerServices.Unsafe.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Text.Encodings.Web.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Text.Json.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\System.Threading.Tasks.Extensions.dll
+V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\publish\Mega.Macro.Wrapper.dll

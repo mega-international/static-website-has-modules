@@ -1,0 +1,22 @@
+{
+  "ModuleType": "AddOn",
+  "Version": "2.0.0",
+  "Id": "website.static.navigator",
+  "Name": "Static Website Navigator",
+  "Description": "Static web site viewer",
+  "PathPrefix": "website.static.navigator",
+  "EnabledOnSettingsMode": false,
+  "ShowInPortal": true,
+  "IgnoreSynchronization": false,
+  "Kind": "Site",
+  "Sha256": "0FCF7DD4387CD2F4610A46F7B706C5D2A9FB72CCC13456F65EC7F3C5F1B4335B",
+  "Requisites": [
+    {
+      "Kind": "None",
+      "Value": "6.0",
+      "For": "All"
+    }
+  ],
+  "RequireLicenseAcceptance": false,
+  "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json"
+}
