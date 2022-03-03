@@ -1,6 +1,6 @@
 {
   "ModuleType": "AddOn",
-  "Version": "15.2.0\u002B6",
+  "Version": "15.2.0\u002B7",
   "Id": "generate.package.website",
   "Name": "Macro Website Generator",
   "Description": "HAS Website generator",
@@ -8,7 +8,7 @@
   "ShowInPortal": false,
   "IgnoreSynchronization": false,
   "Kind": "WebService",
-  "Sha256": "F8459FF48AB1206485B79A7325C5401A14F65AB5BAAE701DF8E40F8150FE4763",
+  "Sha256": "1C8E084F15B029DBCE9EB5BDC13541C202EEC21E59E8037B6E60103BAB1AC72A",
   "RequireLicenseAcceptance": false,
   "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json"
 }

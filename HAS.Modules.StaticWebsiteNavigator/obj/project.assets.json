@@ -8078,7 +8078,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "15.2.0.6",
+    "version": "15.2.0.7",
     "restore": {
       "projectUniqueName": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Has.Modules.WebSite.csproj",
       "projectName": "HAS.Modules.WebSite",

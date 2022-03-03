@@ -1,6 +1,6 @@
 {
   "ModuleType": "AddOn",
-  "Version": "15.2.0\u002B6",
+  "Version": "15.2.0\u002B7",
   "Id": "website.static.navigator",
   "Name": "Static Website Navigator",
   "Description": "Static web site viewer",
@@ -9,7 +9,7 @@
   "ShowInPortal": true,
   "IgnoreSynchronization": false,
   "Kind": "Site",
-  "Sha256": "998300A1642F957F717153CAF888E5D6F70283E2C540E3AA03A5363CA6BC533C",
+  "Sha256": "E7725A4BE93A7A6575B8546EE8D7DA3FDB982D077AEC7FB215B989CE065B4BE3",
   "Requisites": [
     {
       "Kind": "None",

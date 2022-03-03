@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "HAS.Modules.WebSite/15.2.0.6": {
+      "HAS.Modules.WebSite/15.2.0.7": {
         "dependencies": {
           "Hopex.ApplicationServer.SiteModule": "15.2.0"
         },
@@ -1758,7 +1758,7 @@
     }
   },
   "libraries": {
-    "HAS.Modules.WebSite/15.2.0.6": {
+    "HAS.Modules.WebSite/15.2.0.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
