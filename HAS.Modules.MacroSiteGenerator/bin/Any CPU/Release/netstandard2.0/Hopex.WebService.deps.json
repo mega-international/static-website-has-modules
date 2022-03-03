@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Hopex.WebService/2.0.0": {
+      "Hopex.WebService/15.2.0.6": {
         "dependencies": {
           "Hopex.ApplicationServer.Extensions.WebServices": "15.2.0.37",
           "Microsoft.CSharp": "4.7.0",
@@ -141,7 +141,7 @@
     }
   },
   "libraries": {
-    "Hopex.WebService/2.0.0": {
+    "Hopex.WebService/15.2.0.6": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -40,4 +40,4 @@ steps:
 - task: CmdLine@2
   displayName: 'Publishing to mega store'
   inputs:
-    script: 'dotnet has module publish -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber).'
+    script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber).'
