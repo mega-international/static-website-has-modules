@@ -8,25 +8,25 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Has.Modules.WebSite
 build_property.RootNamespace = Has.Modules.WebSite
-build_property.ProjectDir = V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\
+build_property.ProjectDir = C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator
+build_property.MSBuildProjectDirectory = C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsiteNavigator
 build_property._RazorSourceGeneratorDebug = 
 
-[V:/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/Home/index.cshtml]
+[C:/vdisk/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/Home/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[V:/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/Shared/_Layout.cshtml]
+[C:/vdisk/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[V:/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/_ViewImports.cshtml]
+[C:/vdisk/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[V:/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/_ViewStart.cshtml]
+[C:/vdisk/wa/HAS.Modules.StaticWebsiteNavigator/HAS.Modules.StaticWebsiteNavigator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

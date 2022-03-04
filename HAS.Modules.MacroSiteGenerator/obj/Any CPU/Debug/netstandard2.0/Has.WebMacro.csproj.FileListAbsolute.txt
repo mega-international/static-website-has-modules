@@ -10,3 +10,15 @@ V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGene
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.csproj.CopyComplete
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Hopex.WebService.dll
 V:\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.StaticWebsite\MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Hopex.WebService.pdb
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\Any CPU\Debug\netstandard2.0\Hopex.WebService.deps.json
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\Any CPU\Debug\netstandard2.0\Hopex.WebService.dll
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\Any CPU\Debug\netstandard2.0\Hopex.WebService.pdb
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\bin\Any CPU\Debug\netstandard2.0\Mega.Macro.Wrapper.dll
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.csproj.AssemblyReference.cache
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.GeneratedMSBuildEditorConfig.editorconfig
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.AssemblyInfoInputs.cache
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.AssemblyInfo.cs
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.csproj.CoreCompileInputs.cache
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Has.WebMacro.csproj.CopyComplete
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Hopex.WebService.dll
+C:\vdisk\wa\HAS.Modules.StaticWebsiteNavigator\HAS.Modules.MacroSiteGenerator\obj\Any CPU\Debug\netstandard2.0\Hopex.WebService.pdb

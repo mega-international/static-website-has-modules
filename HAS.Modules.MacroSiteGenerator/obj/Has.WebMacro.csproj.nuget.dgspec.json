@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj": {}
+    "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj": {}
   },
   "projects": {
-    "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj": {
-      "version": "15.2.0.7",
+    "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj": {
+      "version": "15.2.0.8",
       "restore": {
-        "projectUniqueName": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
+        "projectUniqueName": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
         "projectName": "Hopex.WebService",
-        "projectPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
+        "projectPath": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
         "packagesPath": "C:\\Users\\ept\\.nuget\\packages\\",
-        "outputPath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\obj\\",
+        "outputPath": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

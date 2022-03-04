@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3csMobxQoO128kQydEDRv0WKFI7uUrndmcWBZ1/XjNs=",
+  "Hash": "Zg/H4Z7RRpxcV+Z7n+G0LiUnWAGuiXpersLkBh2aLeg=",
   "Source": "HAS.Modules.WebSite",
   "BasePath": "_content/HAS.Modules.WebSite",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HAS.Modules.WebSite\\wwwroot",
       "Source": "HAS.Modules.WebSite",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\css\\site.css",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\css\\site.css",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\favicon.ico",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\favicon.ico",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\help.png",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\help.png",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "images/help.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\help.png"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\logo-H-white.png",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\logo-H-white.png",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "images/logo-H-white.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo-H-white.png"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\logout.png",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\images\\logout.png",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "images/logout.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logout.png"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\js\\index.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\js\\index.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "js/index.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/js/all.min.js",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\js\\all.min.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/sprites/brands.svg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\brands.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/sprites/regular.svg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\regular.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/sprites/solid.svg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\sprites\\solid.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.eot",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.eot",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.eot",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.eot",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.svg",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.js",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.min.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.min.map",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.min.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.map"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.slim.js",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.slim.min.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.js"
     },
     {
-      "Identity": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "Identity": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
       "SourceId": "HAS.Modules.WebSite",
       "SourceType": "Discovered",
-      "ContentRoot": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
+      "ContentRoot": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\wwwroot\\",
       "BasePath": "_content/HAS.Modules.WebSite",
       "RelativePath": "lib/jquery/jquery.slim.min.map",
       "AssetKind": "All",

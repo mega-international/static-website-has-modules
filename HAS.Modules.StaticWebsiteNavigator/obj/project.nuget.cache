@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LckR/b7COPDACNd6zjLkyOohhKQeEiqDpfWIkrtU7fmT/PNwF+B3uQlK+aE+8V77EqOB59PsW+okNH1ylPAoyQ==",
+  "dgSpecHash": "rXdc7EYpVFno9cL9R3RIM0VfBKyfrt119Dc6MM5i2Qb6da4H9GBLrHlyFeERuMHJ06/WqeLI0ZpYUEbCDEpodQ==",
   "success": true,
-  "projectFilePath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Has.Modules.WebSite.csproj",
+  "projectFilePath": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.StaticWebsiteNavigator\\Has.Modules.WebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ept\\.nuget\\packages\\apachethrift\\0.14.1\\apachethrift.0.14.1.nupkg.sha512",
     "C:\\Users\\ept\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
