@@ -36,7 +36,12 @@ steps:
     command: 'custom'
     custom: 'tool'
     arguments: 'update hopex.applicationserver.tool --version 15.3.*'
-    
+
+- task: CmdLine@2
+  displayName: 'echo directories'
+  inputs:
+    script: 'dir'
+
 - task: CmdLine@2
   displayName: 'Publishing to mega store'
   inputs:
