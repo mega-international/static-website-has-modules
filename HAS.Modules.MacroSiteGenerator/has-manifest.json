@@ -1,6 +1,6 @@
 {
   "ModuleType": "AddOn",
-  "Version": "1.0.14",
+  "Version": "15.2.2",
   "Id": "generate.package.website",
   "Name": "Macro Website Generator",
   "Description": "HAS Website generator",

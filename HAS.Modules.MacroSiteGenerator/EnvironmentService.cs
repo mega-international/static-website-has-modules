@@ -7,8 +7,21 @@ namespace Has.WebMacro
 {
     internal class EnvironmentService
     {
-        private MegaLanguage _originalMegaLanguage;
-        private MegaObject _originalLanguage;
-        
+        public MegaObject OriginalLanguage;
+        private readonly MegaRoot _root;
+
+        public EnvironmentService(MegaRoot root)
+        {
+            _root = root;
+            var originalMegaLanguage = root.CurrentEnvironment.CurrentLanguage;
+            OriginalLanguage = root.GetObjectFromId<MegaObject>(originalMegaLanguage.Id);
+        }
+
+        public void SetBackToDefaultEnvValues(WebsiteService websiteService)
+        {
+            _root.CurrentEnvironment.NativeObject.SetCurrentLanguage(OriginalLanguage.MegaUnnamedField.Substring(0, 13));
+            websiteService.Website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", websiteService.WebsiteOriginalPath);
+            _root.CallFunction("~lcE6jbH9G5cK", "{\"instruction\":\"POSTPUBLISHINSESSION\"}");
+        }
     }
 }
