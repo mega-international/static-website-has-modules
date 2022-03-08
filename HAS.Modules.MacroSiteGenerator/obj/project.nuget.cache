@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aTvMdTd4ZtV3BpGWtc4zP3oBBh9og7EbbxaSW6iSoDIHwgNh/DJkypSytnfWMqHLujxPh4AzDnm7tGxXpaodng==",
+  "dgSpecHash": "wY8Aw16RXnoYYF0PdCWqif4T/Afb93E1k6uUBKm9mIE1uLUwuZqONbUzxhcw8bJEefVvRzz7akDTR+5SeuLaVg==",
   "success": true,
-  "projectFilePath": "C:\\vdisk\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
+  "projectFilePath": "V:\\wa\\HAS.Modules.StaticWebsiteNavigator\\HAS.Modules.MacroSiteGenerator\\Has.WebMacro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ept\\.nuget\\packages\\hopex.applicationserver.extensions.webservices\\15.2.0.37\\hopex.applicationserver.extensions.webservices.15.2.0.37.nupkg.sha512",
     "C:\\Users\\ept\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

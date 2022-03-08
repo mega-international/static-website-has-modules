@@ -30,6 +30,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HAS.Modules.StaticWebsiteCo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{21F1CABA-ADCC-49B0-8403-AC8D469B3B27}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		has-manifest.json = has-manifest.json
 		pipeline.yaml = pipeline.yaml
 	EndProjectSection

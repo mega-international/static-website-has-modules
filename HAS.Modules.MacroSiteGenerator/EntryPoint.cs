@@ -26,7 +26,8 @@ namespace Has.WebMacro
             ErrorMacroResponse result = new ErrorMacroResponse();
 
             var location = Assembly.GetExecutingAssembly().Location;
-            FolderManager folderManager = new FolderManager(location);
+            FolderManager folderManager = new FolderManager(location, Logger);
+
             if (!folderManager.ShadowFileExists())
             {
                 Logger.LogInformation("This feature is only available for a version of HOPEX V5 and above.");
@@ -63,53 +64,7 @@ namespace Has.WebMacro
 
             foreach (string languageCode in languagesCode.Split(';'))
             {
-                //Get language from language code
-                MegaCollection languageCollection = root.GetSelection($"Select [Language] Where [Language Code] ='{languageCode}'");
-                if (languageCollection.Count != 1)
-                {
-                    var languageError = new ErrorMacroResponse(HttpStatusCode.InternalServerError, $"Please check language code : '{languageCode}'");
-                    Logger.LogInformation($"Please check language code : '{languageCode}'", _logMacroId);
-                    return HopexResponse.Json(JsonSerializer.Serialize(languageError));
-                }
-                MegaObject language = languageCollection.Item(1);
-                root.CurrentEnvironment.NativeObject.SetCurrentLanguage(language.MegaUnnamedField.Substring(0, 13));
-                try
-                {
-                    website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", $"{fullWebsiteOriginalPath}\\{languageCode}");
-                }
-                catch (Exception e)
-                {
-                    var errorLockResult = new ErrorMacroResponse(HttpStatusCode.InternalServerError, $"Website with id {webSiteId} is locked");
-                    Logger.LogError(e);
-                    return HopexResponse.Json(JsonSerializer.Serialize(errorLockResult));
-                }
-
-                try
-                {
-                    //Website generation
-                    Logger.LogInformation($"Start generation of website in '{languageCode}'", _logMacroId);
-                    await GenerateWebsiteAsync(website);
-                    Logger.LogInformation("Enf of generation", _logMacroId);
-                }
-                catch
-                {
-                    Logger.LogInformation("Error during the website generation. Check megaerr file for more detail", _logMacroId);
-                    result = new ErrorMacroResponse(HttpStatusCode.InternalServerError, $"Error during the website's generation");
-                    if (!forceContinuOnError)
-                    {
-                        return HopexResponse.Json(JsonSerializer.Serialize(result));
-                    }
-                }
-                finally
-                {
-                    SetBackToDefaultEnvValues(root, website, originalEnvironmentLanguage, websiteOriginalPath);
-                    Logger.LogInformation("Initial environment's values have been reset. Transaction has been published", _logMacroId);
-                    if (forceContinuOnError && languageCode.Equals(languagesCode.Split(';').Last()))
-                    {
-                        Logger.LogInformation("Generation errors will not prevent module to package", _logMacroId);
-                        CopyAndPackageWebSiteModule(contentModuleVersion, fullWebsiteOriginalPath);
-                    }
-                }
+                await SingleWebsiteGeneration(root, languageCode, website, fullWebsiteOriginalPath, webSiteId, forceContinuOnError, originalEnvironmentLanguage, websiteOriginalPath, languagesCode, contentModuleVersion);
             }
             if (!forceContinuOnError)
             {
@@ -124,6 +79,66 @@ namespace Has.WebMacro
             Logger.LogInformation("GraphQL website generation end");
             return HopexResponse.Json(JsonSerializer.Serialize(result));
         }
+
+        private async Task<HopexResponse> SingleWebsiteGeneration(MegaRoot root, string languageCode, MegaObject website,
+            string fullWebsiteOriginalPath, string webSiteId, bool forceContinuOnError, MegaObject originalEnvironmentLanguage,
+            string websiteOriginalPath, string languagesCode, DirectoryInfo contentModuleVersion)
+        {
+            //Get language from language code
+            MegaCollection languageCollection = root.GetSelection($"Select [Language] Where [Language Code] ='{languageCode}'");
+            if (languageCollection.Count != 1)
+            {
+                var languageError = new ErrorMacroResponse(HttpStatusCode.InternalServerError,
+                    $"Please check language code : '{languageCode}'");
+                Logger.LogInformation($"Please check language code : '{languageCode}'", _logMacroId);
+                return HopexResponse.Json(JsonSerializer.Serialize(languageError)); ;
+            }
+
+            MegaObject language = languageCollection.Item(1);
+            root.CurrentEnvironment.NativeObject.SetCurrentLanguage(language.MegaUnnamedField.Substring(0, 13));
+            try
+            {
+                website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", $"{fullWebsiteOriginalPath}\\{languageCode}");
+            }
+            catch (Exception e)
+            {
+                var errorLockResult =
+                    new ErrorMacroResponse(HttpStatusCode.InternalServerError, $"Website with id {webSiteId} is locked");
+                Logger.LogError(e);
+                return HopexResponse.Json(JsonSerializer.Serialize(errorLockResult)); ;
+            }
+
+            try
+            {
+                //Website generation
+                Logger.LogInformation($"Start generation of website in '{languageCode}'", _logMacroId);
+                await GenerateWebsiteAsync(website);
+                Logger.LogInformation("Enf of generation", _logMacroId);
+            }
+            catch
+            {
+                Logger.LogInformation("Error during the website generation. Check megaerr file for more detail", _logMacroId);
+                var result = new ErrorMacroResponse(HttpStatusCode.InternalServerError, $"Error during the website's generation");
+                if (!forceContinuOnError)
+                {
+                    return HopexResponse.Json(JsonSerializer.Serialize(result));
+                }
+            }
+            finally
+            {
+                SetBackToDefaultEnvValues(root, website, originalEnvironmentLanguage, websiteOriginalPath);
+                Logger.LogInformation("Initial environment's values have been reset. Transaction has been published",
+                    _logMacroId);
+                if (forceContinuOnError && languageCode.Equals(languagesCode.Split(';').Last()))
+                {
+                    Logger.LogInformation("Generation errors will not prevent module to package", _logMacroId);
+                    CopyAndPackageWebSiteModule(contentModuleVersion, fullWebsiteOriginalPath);
+                }
+            }
+
+            return null;
+        }
+
         private void CopyAndPackageWebSiteModule(DirectoryInfo contentModuleVersion, string fullWebsiteOriginalPath)
         {
             Logger.LogInformation("Start copying website(s) files to the module's folder", _logMacroId);

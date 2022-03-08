@@ -38,11 +38,6 @@ steps:
     arguments: 'update hopex.applicationserver.tool --version 15.3.*'
 
 - task: CmdLine@2
-  displayName: 'echo directories'
-  inputs:
-    script: 'dir'
-
-- task: CmdLine@2
   displayName: 'Publishing to mega store'
   inputs:
     script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
