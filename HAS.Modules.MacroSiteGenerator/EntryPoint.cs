@@ -21,16 +21,20 @@ namespace Has.WebMacro
 
         public async override Task<HopexResponse> Execute(WebServiceArgument args)
         {
-            _logMacroId = Logger.InitMacroId("WEBSITEGENERATE");
+            Logger.LogInformation("Start of macro website generation and packaging");
+
             var root = MegaWrapperObject.Cast<MegaRoot>(HopexContext.NativeRoot);
-            Logger.LogInformation("GraphQL website generation start");
             var result = new ErrorMacroResponse();
 
+            _logMacroId = Logger.InitMacroId("WEBSITEGENERATE");
+
+            //Folder/files elements
             var location = Assembly.GetExecutingAssembly().Location;
             var folderManager = new FolderManager(location, Logger);
             result = folderManager.VerifyCorrectFilesAvailable();
             var contentModuleVersionDirectoryInfo = folderManager.contentModuleVersionDirectoryInfo;
 
+            //Fetch json body arguments
             var webSiteId = args.WebSiteId;
             var languagesCode = args.LanguagesCode;
             var forceContinuOnError = args.ForceContinuOnError;
@@ -43,17 +47,20 @@ namespace Has.WebMacro
                 return HopexResponse.Json(JsonSerializer.Serialize(errorIdResult));
             }
 
-            var environmentService = new EnvironmentService(root);
             websiteService.ClearWebsiteFolder();
+
+            var environmentService = new EnvironmentService(root);
 
             foreach (var languageCode in languagesCode.Split(';'))
             {
                 result = await websiteService.SingleWebsiteGeneration(root, languageCode, forceContinuOnError,  environmentService, languagesCode, contentModuleVersionDirectoryInfo, _logMacroId);
                 if(result != null) return HopexResponse.Json(JsonSerializer.Serialize(result));
             }
+
+            //If error during generation and forceContinuOnError = false then the following will not be hit.
             if (!forceContinuOnError)
             {
-                folderManager.CopyWebSiteFilesToModule(contentModuleVersionDirectoryInfo.FullName, websiteService.FullWebsiteOriginalPath);
+                folderManager.CopyWebSiteFilesToModuleFolder(contentModuleVersionDirectoryInfo.FullName, websiteService.FullWebsiteOriginalPath);
                 var newModuleVersion = $"15.{DateTime.Now.Year}.{DateTime.Now.Month}+{DateTime.Now.Day}{DateTime.Now.Hour}{DateTime.Now.Minute}";
                 Logger.LogInformation($"Start packaging the module version {newModuleVersion}", _logMacroId);
                 var websitePackager = new WebsitePackager();
@@ -62,7 +69,7 @@ namespace Has.WebMacro
                 Logger.LogInformation("End packaging the module", _logMacroId);
                 result = new ErrorMacroResponse(HttpStatusCode.OK, $"Website was successfully generated and packaged in '{languagesCode}'.");
             }
-            Logger.LogInformation("GraphQL website generation end");
+            Logger.LogInformation("End of macro website generation and packaging");
             return HopexResponse.Json(JsonSerializer.Serialize(result));
         }
     }

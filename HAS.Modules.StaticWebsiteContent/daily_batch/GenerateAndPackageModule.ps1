@@ -19,7 +19,7 @@ $jsonConfig = Get-Content "$scriptFolder\config.json" | Select -Skip 7  | Out-St
 #Remove-Item $websitePath\* -Recurse -Force
 
 $serverUrl = $jsonConfig.serverUrl
-$uri = "$serverUrl/HOPEXGraphQL/api/async/generatewebsite"
+$uri = "$serverUrl/HOPEXGraphQL/api/async/generate-package-website"
 
 $headers = @{
     'x-api-key' = $jsonConfig.apiKey

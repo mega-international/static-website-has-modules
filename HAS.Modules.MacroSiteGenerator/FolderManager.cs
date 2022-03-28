@@ -11,6 +11,10 @@ namespace Has.WebMacro
 {
     internal class FolderManager
     {
+        private const string WebsiteContentId = "website.static.content";
+        private const string HotInstallFolderName = ".hot-install";
+        private const string InstanceModulesFolder = "Modules";
+
         private readonly DirectoryInfo _shadowFilesDirectoryInfo;
         private readonly DirectoryInfo _contentDirectoryInfo;
         internal DirectoryInfo contentModuleVersionDirectoryInfo;
@@ -24,8 +28,8 @@ namespace Has.WebMacro
             _logger = logger;
             var shadowfilesFolderPath = Path.GetFullPath(Path.Combine(location, @"..\..\..\..\"));
             _shadowFilesDirectoryInfo = new DirectoryInfo(shadowfilesFolderPath);
-            hotInstallDirectoryInfo = Path.GetFullPath(Path.Combine(location, @"..\..\..\..\..\Modules\.hot-install"));
-            var contentModuleFolderPath = Path.GetFullPath(Path.Combine(shadowfilesFolderPath, "website.static.content"));
+            hotInstallDirectoryInfo = Path.GetFullPath(Path.Combine(location, @"..\..\..\..\..\{0}\{1}", InstanceModulesFolder, HotInstallFolderName));
+            var contentModuleFolderPath = Path.GetFullPath(Path.Combine(shadowfilesFolderPath, WebsiteContentId));
             _contentDirectoryInfo = new DirectoryInfo(contentModuleFolderPath);
             contentModuleVersionDirectoryInfo = _contentDirectoryInfo.GetDirectories()
                 .OrderByDescending(d => d.LastWriteTimeUtc).First();
@@ -89,7 +93,7 @@ namespace Has.WebMacro
             }
         }
 
-        public void CopyWebSiteFilesToModule(string ModuleFolderPath, string WebSiteFolderPath)
+        public void CopyWebSiteFilesToModuleFolder(string ModuleFolderPath, string WebSiteFolderPath)
         {
             DirectoryInfo wwwrootTemplate = new DirectoryInfo($"{ModuleFolderPath}\\wwwrootTemplate\\");
             DirectoryInfo wwwroot = new DirectoryInfo($"{ModuleFolderPath}\\wwwroot\\");

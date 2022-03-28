@@ -79,7 +79,7 @@ namespace Has.WebMacro
                 if (forceContinuOnError && languageCode.Equals(languagesCode.Split(';').Last()))
                 {
                     _logger.LogInformation("Generation errors will not prevent module to package", logMacroId);
-                    folderManager.CopyWebSiteFilesToModule(contentModuleVersion.FullName, FullWebsiteOriginalPath);
+                    folderManager.CopyWebSiteFilesToModuleFolder(contentModuleVersion.FullName, FullWebsiteOriginalPath);
                 }
             }
 

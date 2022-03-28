@@ -13,7 +13,7 @@ namespace Has.WebMacro
         public WebsitePackager(){}
         public async Task PackageModuleAsync(string ModuleFolderPath, string DestinationFolderPath, string ModuleVersion, ILogger logger)
         {
-            var packager = new ModulePackager(ModuleFolderPath, "debug");
+            var packager = new ModulePackager(ModuleFolderPath, "Release");
             var packageResult = await packager.CreatePackageAsync(ModuleVersion, false, false, DestinationFolderPath);
         }
     }
