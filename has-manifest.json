@@ -4,11 +4,5 @@
   "Id": "website.static.navigator.bundle",
   "Description": "Bundle for the static website that contains the navigator, content and api to generate the website",
   "Kind": "Application",
-  "Name": "Static Website Bundle",
-  "Dependencies":[
-	{
-      "Id": "graphql.ide",
-      "Optional": false
-    }
-  ]
+  "Name": "Static Website Bundle"
 }
