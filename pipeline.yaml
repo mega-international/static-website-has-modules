@@ -40,19 +40,19 @@ steps:
 - task: CmdLine@2
   displayName: 'Publishing Module Website Navigator to mega store'
   inputs:
-    workingDirectory: '/HAS.Modules.StaticWebsiteNavigator'
+    workingDirectory: '.\HAS.Modules.StaticWebsiteNavigator'
     script: 'dotnet-has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
 
 - task: CmdLine@2
   displayName: 'Publishing Module Website Content to mega store'
   inputs:
-    workingDirectory: '/HAS.Modules.StaticWebsiteContent'
+    workingDirectory: '.\HAS.Modules.StaticWebsiteContent'
     script: 'dotnet-has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
 
 - task: CmdLine@2
   displayName: 'Publishing Module Website Generator to mega store'
   inputs:
-    workingDirectory: '/HAS.Modules.MacroSiteGenerator'
+    workingDirectory: '.\HAS.Modules.MacroSiteGenerator'
     script: 'dotnet-has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
 
 - task: CmdLine@2
