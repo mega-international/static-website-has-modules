@@ -45,7 +45,7 @@ namespace Has.WebMacro
             root.CurrentEnvironment.NativeObject.SetCurrentLanguage(language.MegaUnnamedField.Substring(0, 13));
             try
             {
-                Website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", $"{FullWebsiteOriginalPath}\\{languageCode}");
+                Website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", $"{FullWebsiteOriginalPath.TrimEnd('\\')}\\{languageCode}");
             }
             catch (Exception e)
             {

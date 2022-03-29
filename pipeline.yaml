@@ -11,7 +11,7 @@ variables:
 - name: Major
   value: 15
 - name: CP
-  value: 2
+  value: 3
 - name: HF
   value: 0
 - name: Patch

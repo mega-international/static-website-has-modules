@@ -1,6 +1,6 @@
 {
   "ModuleType": "Core",
-  "Version": "15.2.0",
+  "Version": "15.3.0",
   "Id": "website.static.content",
   "Name": "Static Website Content",
   "Description": "Content of static website for navigator",

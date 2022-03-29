@@ -28,7 +28,7 @@ namespace Has.WebMacro
             _logger = logger;
             var shadowfilesFolderPath = Path.GetFullPath(Path.Combine(location, @"..\..\..\..\"));
             _shadowFilesDirectoryInfo = new DirectoryInfo(shadowfilesFolderPath);
-            hotInstallDirectoryInfo = Path.GetFullPath(Path.Combine(location, @"..\..\..\..\..\{0}\{1}", InstanceModulesFolder, HotInstallFolderName));
+            hotInstallDirectoryInfo = Path.GetFullPath(Path.Combine(location, String.Format(@"..\..\..\..\..\{0}\{1}", InstanceModulesFolder, HotInstallFolderName)));
             var contentModuleFolderPath = Path.GetFullPath(Path.Combine(shadowfilesFolderPath, WebsiteContentId));
             _contentDirectoryInfo = new DirectoryInfo(contentModuleFolderPath);
             contentModuleVersionDirectoryInfo = _contentDirectoryInfo.GetDirectories()

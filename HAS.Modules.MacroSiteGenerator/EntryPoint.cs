@@ -57,18 +57,16 @@ namespace Has.WebMacro
                 if(result != null) return HopexResponse.Json(JsonSerializer.Serialize(result));
             }
 
-            //If error during generation and forceContinuOnError = false then the following will not be hit.
-            if (!forceContinuOnError)
-            {
-                folderManager.CopyWebSiteFilesToModuleFolder(contentModuleVersionDirectoryInfo.FullName, websiteService.FullWebsiteOriginalPath);
-                var newModuleVersion = $"15.{DateTime.Now.Year}.{DateTime.Now.Month}+{DateTime.Now.Day}{DateTime.Now.Hour}{DateTime.Now.Minute}";
-                Logger.LogInformation($"Start packaging the module version {newModuleVersion}", _logMacroId);
-                var websitePackager = new WebsitePackager();
-                await websitePackager.PackageModuleAsync(contentModuleVersionDirectoryInfo.FullName,
-                    folderManager.hotInstallDirectoryInfo, newModuleVersion, Logger);
-                Logger.LogInformation("End packaging the module", _logMacroId);
-                result = new ErrorMacroResponse(HttpStatusCode.OK, $"Website was successfully generated and packaged in '{languagesCode}'.");
-            }
+          
+            folderManager.CopyWebSiteFilesToModuleFolder(contentModuleVersionDirectoryInfo.FullName, websiteService.FullWebsiteOriginalPath);
+            var newModuleVersion = $"15.{DateTime.Now.Year}.{DateTime.Now.Month}+{DateTime.Now.Day}{DateTime.Now.Hour}{DateTime.Now.Minute}";
+            Logger.LogInformation($"Start packaging the module version {newModuleVersion}", _logMacroId);
+            var websitePackager = new WebsitePackager();
+            await websitePackager.PackageModuleAsync(contentModuleVersionDirectoryInfo.FullName,
+            folderManager.hotInstallDirectoryInfo, newModuleVersion, Logger);
+            Logger.LogInformation("End packaging the module", _logMacroId);
+            result = new ErrorMacroResponse(HttpStatusCode.OK, $"Website was successfully generated and packaged in '{languagesCode}'.");
+
             Logger.LogInformation("End of macro website generation and packaging");
             return HopexResponse.Json(JsonSerializer.Serialize(result));
         }
