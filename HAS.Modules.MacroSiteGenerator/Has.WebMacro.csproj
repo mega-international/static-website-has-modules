@@ -6,7 +6,19 @@
     <AssemblyName>Hopex.WebService</AssemblyName>
     <IsPackable>false</IsPackable>
     <LangVersion>preview</LangVersion>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Hopex.ApplicationServer.Extensions.Package" Version="15.3.0.1" />

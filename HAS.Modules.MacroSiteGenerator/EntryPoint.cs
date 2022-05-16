@@ -15,8 +15,8 @@ namespace Has.WebMacro
     [HopexWebService(WebServiceRoute)]
     public class EntryPoint : HopexWebService<WebServiceArgument>
     {
-        // The final path is "<host>/api/generate-package-website"
-        private const string WebServiceRoute = "generate-package-website";
+        // The final path is "<host>/api/website/static/generate"
+        private const string WebServiceRoute = "website/static/generate";
         private static int _logMacroId;
 
         public async override Task<HopexResponse> Execute(WebServiceArgument args)

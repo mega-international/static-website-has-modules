@@ -1,13 +1,14 @@
 {
   "ModuleType": "AddOn",
   "Version": "15.3.0",
-  "Id": "generate.package.website",
-  "Name": "Macro Website Generator",
+  "Id": "website.static.macros",
+  "Name": "Static Website Macros",
   "Description": "HAS Website generator",
   "EnabledOnSettingsMode": false,
   "ShowInPortal": false,
   "IgnoreSynchronization": false,
   "Kind": "WebService",
+  "ServerVersionRange": "[15.0.3,)",
   "RequireLicenseAcceptance": false,
   "$schema": "https://raw.githubusercontent.com/mega-international/schemas/main/json/module-schema.json"
 }
