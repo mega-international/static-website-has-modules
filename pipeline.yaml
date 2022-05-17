@@ -60,6 +60,11 @@ steps:
   inputs:
     script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
 
+- task: CmdLine@2
+  displayName: 'check files'
+  inputs:
+    script: 'dir'
+
 - task: bash@3
   displayName: 'Pushing branch to public repo GitHub'
   inputs:
