@@ -63,4 +63,4 @@ steps:
 - task: bash@3
   displayName: 'Pushing branch to public repo GitHub'
   inputs:
-    script: 'git push https://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@github.com/mega-international/static-website-has-modules.git'
+    script: 'git push https://$(Personnal.GitHub.AccessToken)@github.com/mega-international/static-website-has-modules.git'
