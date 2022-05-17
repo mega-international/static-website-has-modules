@@ -59,3 +59,7 @@ steps:
   displayName: 'Publishing bundle to mega store'
   inputs:
     script: 'dotnet has module create -s $(Hopex.StoreAddress) -t $(Hopex.StoreToken) -p . --version $(Build.BuildNumber)'
+
+- task: bash@3
+  displayName: 'Pushing branch to public repo GitHub'
+  script: 'git push https://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@github.com/mega-international/static-website-has-modules.git'
