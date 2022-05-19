@@ -118,7 +118,7 @@ namespace Has.Modules.WebSite.ContentFileProvider
             do
             {
                 var root = dir.EnumerateDirectories(resourcesFolder);
-                if (root.Any()) return new PhysicalFileProvider(root.First().FullName);
+                if (root.Any() && root.First().EnumerateDirectories().Any()) return new PhysicalFileProvider(root.First().FullName);
                 dir = dir.Parent;
             }
             while (dir != null && recursive);

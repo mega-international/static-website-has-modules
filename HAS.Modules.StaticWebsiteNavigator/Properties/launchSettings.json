@@ -6,7 +6,7 @@
   "profiles": {
     "Has.Modules.WebSite": {
       "commandName": "Project",
-      "commandLineArgs": "--attach-to https://w-ept-new:5000",
+      "commandLineArgs": "--attach-to https://w-ept-new:5001",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

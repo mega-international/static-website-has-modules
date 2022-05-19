@@ -16,7 +16,7 @@ namespace Has.Modules.WebSite
             services.AddSingleton<IFileSystem>(new FileSystem());
             services.AddHASModule("1D961811-96A1-4FFF-B539-9A6DEED01617", opts =>
             {
-                opts.AuthenticationMode = AuthenticationMode.Cookie;
+                //opts.AuthenticationMode = AuthenticationMode.Cookie;
             });
            
             services.AddHASStaticWebContentFiles("website.static.content");
