@@ -2,7 +2,7 @@
   "ModuleType": "AddOn",
   "Version": "15.3.0",
   "Id": "website.static.navigator",
-  "Name": "Static Website Navigator",
+  "Name": "Enterprise Portal",
   "Description": "Static web site viewer",
   "PathPrefix": "website.static.navigator",
   "EnabledOnSettingsMode": false,
