@@ -11,7 +11,7 @@ namespace Has.WebMacro
     internal class WebsitePackager
     {
         public WebsitePackager(){}
-        public async Task PackageModuleAsync(string ModuleFolderPath, string DestinationFolderPath, string ModuleVersion, ILogger logger)
+        public async Task PackageModuleAsync(string ModuleFolderPath, string DestinationFolderPath, string ModuleVersion)
         {
             var packager = new ModulePackager(ModuleFolderPath, "Release");
             var packageResult = await packager.CreatePackageAsync(ModuleVersion, false, false, DestinationFolderPath);

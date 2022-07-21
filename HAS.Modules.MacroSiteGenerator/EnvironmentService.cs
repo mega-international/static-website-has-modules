@@ -1,4 +1,5 @@
-﻿using Mega.Macro.API;
+﻿using Hopex.ApplicationServer.WebServices;
+using Mega.Macro.API;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -17,11 +18,18 @@ namespace Has.WebMacro
             OriginalLanguage = root.GetObjectFromId<MegaObject>(originalMegaLanguage.Id);
         }
 
-        public void SetBackToDefaultEnvValues(WebsiteService websiteService)
+        public void SetBackToDefaultEnvValues(WebsiteService websiteService, ILogger logger, int logMacroId)
         {
-            _root.CurrentEnvironment.NativeObject.SetCurrentLanguage(OriginalLanguage.MegaUnnamedField.Substring(0, 13));
-            websiteService.Website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", websiteService.WebsiteOriginalPath);
-            _root.CallFunction("~lcE6jbH9G5cK", "{\"instruction\":\"POSTPUBLISHINSESSION\"}");
+            try
+            {
+                _root.CurrentEnvironment.NativeObject.SetCurrentLanguage(OriginalLanguage.MegaUnnamedField.Substring(0, 13));
+                websiteService.Website.SetPropertyValue("~dAChvzAqqq00[Web Site Path]", websiteService.WebsiteOriginalPath);
+                _root.CallFunction("~lcE6jbH9G5cK", "{\"instruction\":\"POSTPUBLISHINSESSION\"}");
+            }
+            catch(Exception ex)
+            {
+                logger.LogError(ex, logMacroId, ex.Message);
+            }
         }
     }
 }

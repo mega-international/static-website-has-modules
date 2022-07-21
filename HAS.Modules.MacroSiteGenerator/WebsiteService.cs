@@ -73,7 +73,7 @@ namespace Has.WebMacro
             }
             finally
             {
-                environmentService.SetBackToDefaultEnvValues(this);
+                environmentService.SetBackToDefaultEnvValues(this, _logger, logMacroId);
                 _logger.LogInformation("Initial environment's values have been reset. Transaction has been published",
                     logMacroId);
                 if (forceContinuOnError && languageCode.Equals(languagesCode.Split(';').Last()))
